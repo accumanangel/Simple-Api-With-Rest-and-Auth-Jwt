@@ -51,7 +51,7 @@ This project is licensed under the MIT License.
 
 # End points
 
-## `/api/auth/signup`
+### `/api/auth/signup`
 
 Endpoint to register a new user with email and password.
 

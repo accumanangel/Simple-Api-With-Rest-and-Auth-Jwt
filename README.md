@@ -28,16 +28,16 @@ This project provides a Node.js-based RESTful API for user authentication and au
    ```
 
 2. Install dependencies:
-   ```
+   ```bash
    npm install
    ```
 3. Create a `.env` file in the root directory and set the following environment variables:
-   ```
+   ```plaintext
    PORT=5000
    SECRET="your_jwt_secret"
    ```
 4. Start the server:
-   ```
+   ```bash
    npm start
    ```
 
@@ -57,13 +57,13 @@ Endpoint to register a new user with email and password.
 
 ### Endpoint
 
-```
+```bash
 POST /api/auth/signup
 ```
 
 ### Expected Body
 
-```
+```json
 {
   "email": "example@example.com",
   "password": "password123"
@@ -76,7 +76,7 @@ POST /api/auth/signup
 
 #### Body:
 
-```
+```json
 {
   "msg": "User Account Created!"
 }
